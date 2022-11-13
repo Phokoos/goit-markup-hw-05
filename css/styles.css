@@ -64,7 +64,7 @@ img {
 ===================
 */
 
-/* .visually-hidden {
+.visually-hidden {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -73,7 +73,7 @@ img {
 	overflow: hidden;
 	border: 0;
 	clip: rect(0 0 0 0);
-} */
+}
 
 .section {
 	padding-top: 94px;
@@ -407,11 +407,7 @@ img {
 */
 .advantages {}
 
-.advantages-title {
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
-}
+.advantages-title {}
 
 .advantages-list {
 	display: flex;
@@ -690,11 +686,7 @@ img {
 
 .works-container {}
 
-.works-title {
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
-}
+.works-title {}
 
 .works-filter {
 	margin-bottom: 50px;
